@@ -13,3 +13,15 @@ function reverseStr (str) {
 }
 
 reverseStr("I want to be reversed");
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+// ANOTHER COOL WAY TO DO IT!!!
+
+const reverse = (input) => {
+    return input.split("").reverse().join("");
+}
+
+console.log(reverse("Kevin Foreman"))
+console.log(reverse("Coding is awesome!"))
