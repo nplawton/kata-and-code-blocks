@@ -66,7 +66,7 @@ const str8 = "My name is Kev the Dev";
 console.log(str8.includes("name"));
 // prints true
 
-//charCodeAt()
+// charCodeAt()
 const str9 = "TEST";
 console.log(str9.charCodeAt(0));
 // prints 84
@@ -80,3 +80,14 @@ console.log(str10.match(/sum/g));
 const str11 = "1, 2, 3, 4, 5";
 console.log(str11.split(","));
 // prints [ '1', ' 2', ' 3', ' 4', ' 5' ]
+
+// splice() *This is one of several different ways to use splice(), read the documentation
+var lunchItems = ['Turkey Sandwich', 'Falafel', 'Paella', 'Processor Speed', 'RAM', 'Gyro'];
+var indexOfFirstItemToBeRemoved = 3;
+var numberOfItemsToRemove = 2;
+var itemToBeAdded1 = 'Fish Tacos';
+var itemToBeAdded2 = 'Pizza';
+
+lunchItems.splice(indexOfFirstItemToBeRemoved, numberOfItemsToRemove, itemToBeAdded1, itemToBeAdded2);
+console.log('list of lunch items after splicing:', lunchItems);
+// Logs [ 'Turkey Sandwich', 'Falafel', 'Paella', 'Fish Tacos', 'Pizza', 'Gyro' ]
