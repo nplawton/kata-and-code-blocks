@@ -9,7 +9,7 @@ function generateCombinations(array1, array2) {
     // create an inner loop which iterates over the second array
     for (var i = 0; i < array1.length; i++) {
         for (var j = 0; j < array2.length; j++) {
-            console.log(array1[i] + array2[j]);
+            console.log(array1[i] + " " + array2[j]);
         }
     }
     // log current element of first array and current element of second array to the console with space in between
@@ -36,6 +36,7 @@ generateCombinations([1, 2], ["buckle", "my", "shoe"]);
 // 2 my
 // 2 shoe
 
+// This flavors example is excellent
 // var flavors = ['Vanilla', 'Chocolate', 'Strawberry'];
 // var toppings = ['Sprinkles', 'Caramel', 'Whipped Cream'];
 
