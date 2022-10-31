@@ -1,6 +1,6 @@
 // create a function that will take in a string as an argument and output a reversed string
 
-function reverseStr (str) {
+function reverseStr(str) {
     // create variable to store reversed string
     var revStr = '';
     // loop through the string and go through each character in the string backwards, starting with the last character
@@ -11,7 +11,7 @@ function reverseStr (str) {
     // log reversed string
     console.log(revStr);
 }
-
+// call the function using any string as the argument!
 reverseStr("I want to be reversed");
 
 
