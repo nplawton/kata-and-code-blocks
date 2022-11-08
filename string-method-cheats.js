@@ -7,7 +7,7 @@ console.log(txt.charAt(0));
 const str1 = "Hello ";                                          // These are just a collection of string methods I like to keep handy
 const str2 = "Code Buddy";                                      // I used 'strX' throughout so each code block would run
 console.log(str1.concat(str2));                                 // What's your favorite one?
-// prints 'Hello Code Buddy'                                    // Try them yourself by running this file wwith Node
+// prints 'Hello Code Buddy'                                    // Try them yourself by running this file with Node
 
 // indexOf();
 const text = "Let's find where 'pen' occurs!";
@@ -72,6 +72,8 @@ console.log(str9.charCodeAt(0));
 // prints 84
 
 // match()
+// *Note: this example uses the REGEX of 'g' to represent global
+// this will search the entire string rather than just finding the first occurence
 const str10 = "lopersum lopersum lopersum lopersum";
 console.log(str10.match(/sum/g));
 // prints [ 'sum', 'sum', 'sum', 'sum' ] as an array

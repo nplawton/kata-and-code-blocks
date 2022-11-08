@@ -5,4 +5,4 @@ var expectedCount = 10;
 var actualCount = 9;
 
 var expectationsMet = expectedCount === actualCount;
-console.log('expectationsMet:', expectationsMet);
+console.log('expectationsMet:', expectationsMet); // Output "expectationsMet: false"
