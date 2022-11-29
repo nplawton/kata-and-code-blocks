@@ -93,3 +93,16 @@ var itemToBeAdded2 = 'Pizza';
 lunchItems.splice(indexOfFirstItemToBeRemoved, numberOfItemsToRemove, itemToBeAdded1, itemToBeAdded2);
 console.log('list of lunch items after splicing:', lunchItems);
 // Logs [ 'Turkey Sandwich', 'Falafel', 'Paella', 'Fish Tacos', 'Pizza', 'Gyro' ]
+
+// String.prototype.repeat()
+// Syntax repeat(count)
+/* The repeat method constructs and returns a new string which contains
+the specified number of copies of the string on which it was called, concatenated together
+*/
+function repeatString(string, num) {
+    // your code here
+    return string.repeat(num);
+};
+
+var output = repeatString('code', 3);
+console.log(output); // --> 'codecodecode'
