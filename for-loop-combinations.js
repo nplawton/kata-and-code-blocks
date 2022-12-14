@@ -37,11 +37,11 @@ generateCombinations([1, 2], ["buckle", "my", "shoe"]);
 // 2 shoe
 
 // This flavors example is excellent
-// var flavors = ['Vanilla', 'Chocolate', 'Strawberry'];
-// var toppings = ['Sprinkles', 'Caramel', 'Whipped Cream'];
+var flavors = ['Vanilla', 'Chocolate', 'Strawberry'];
+var toppings = ['Sprinkles', 'Caramel', 'Whipped Cream'];
 
-// for (var i = 0; i < flavors.length; i++) {
-//   for (var j = 0; j < toppings.length; j++) {
-//     console.log("You can have " + flavors[i] + " with " + toppings[j]);
-//   }
-// }
+for (var i = 0; i < flavors.length; i++) {
+    for (var j = 0; j < toppings.length; j++) {
+        console.log("You can have " + flavors[i] + " with " + toppings[j]);
+    }
+}

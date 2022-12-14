@@ -9,6 +9,7 @@ function reverseStr(str) {
         revStr += str[i];
     }
     // log reversed string
+    return revStr;
     console.log(revStr);
 }
 // call the function using any string as the argument!
