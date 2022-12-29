@@ -11,9 +11,12 @@ function reverseStr(str) {
     // log reversed string
     return revStr;
     console.log(revStr);
-}
+};
 // call the function using any string as the argument!
 reverseStr("I want to be reversed");
+
+var output = reverseStr("I want to be reversed");
+console.log(output);
 
 
 
