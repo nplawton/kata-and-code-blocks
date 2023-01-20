@@ -36,8 +36,8 @@ console.log(str5.slice(0, 11));
 // prints Developer's
 
 // substr(start, length)
-const s = "JavaScript";
-console.log(s.substr(4, 6));
+const str99 = "JavaScript";
+console.log(str99.substr(4, 6));
 // prints Script
 
 // toUpperCase()
